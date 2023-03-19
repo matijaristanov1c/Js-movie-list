@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmovi</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="solo_class">
+            <div id="zadatak_tajmer">
+                <div id="zadatak">
+                    <div id="tajmer" class="tajmer">
+        
+                    </div>
+                    <div id="za_a" class="dodaj_padding">
+        
+                    </div>
+                    <div id="znak" class="dodaj_padding">
+        
+                    </div>
+                    <div id="za_b" class="dodaj_padding">
+        
+                    </div>
+                    <div id="korisnikov_unos">
+                        <form action="" id="za_racunanje">
+                            <p>
+                                <input type="number" name="korisnikov_racun" id="korisnikov_racun">
+                                <span id="racun_greska"></span>
+                            </p>
+                            <p>
+                                <input type="submit" value="Proveri odgovor">
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="prikaz" class="show_movies">
+            <div class="prikaz_forme">
+                <form action="" id="forma">
+                    <p>
+                        <label for="ID">ID</label>
+                        <input type="number" name="id" id="id">
+                        <span id="id_error"></span>
+                    </p>
+                    <p>
+                        <label for="naziv">Naziv</label>
+                        <input type="text" name="naziv" id="naziv">
+                        <span id="naziv_error"></span>
+                    </p>
+                    <p>
+                        <label for="zanr">Zanr</label>
+                        <input type="text" name="zanr" id="zanr">
+                        <span id="zanr_error"></span>
+                    </p>
+                    <p>
+                        <label for="reziser">Reziser</label>
+                        <input type="text" name="reziser" id="reziser">
+                        <span id="space_error_reziser"></span>
+
+                    </p>
+                    <p>
+                        <label for="glavnaUloga">Glavna uloga</label>
+                        <input type="text" name="glavnaUloga" id="glavnaUloga">
+                        <span id="space_error_glavna"></span>
+                    </p>
+                    <p>
+                        <label for="imdb">IMDB</label>
+                        <input type="number" name="imdb" id="imdb" step="0.1">
+                        <span id="imdb_error"></span>
+                    </p>
+                    <p>
+                        <label for="godina">Godina</label>
+                        <input type="number" name="godina" id="godina">
+                        <span id="godina_error"></span>
+                    </p>
+                    <p>
+                        <input type="submit" value="Dodaj film">
+                    </p>
+                </form>
+            </div>
+            <div id="filmovi" class="class_movies">
+
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

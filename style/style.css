@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.show_movies{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: 2px solid red;
+}
+#operacije{
+    display: flex;
+    justify-content: space-evenly;
+    width: fit-content;
+}
+.sakriji{
+    display: none;
+}
+.prikazi{
+    display: flex;
+}
+.prikaz_forme{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid black;
+    padding: 2%;
+}
+.class_movies{
+    width: 50%;
+    justify-content: center;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    padding: 2%;
+}
+.solo_class{
+    width: 100%;
+    height: 200px;
+}
+
+#zadatak{
+    display: flex;
+    padding: 3%;
+}
+.dodaj_padding{
+    padding: 3%;
+}
+.tajmer{
+    padding: 3%;
+}
+.napravi_border ,.novi_td{
+    border: 1px solid black;
+    padding: 10px;
+}
